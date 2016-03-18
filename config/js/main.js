@@ -22,11 +22,11 @@ function loadOptions() {
 
   if (localStorage.backgroundColor) {
     $backgroundColorPicker[0].value = localStorage.backgroundColor;
-    $tickColorPicker[0].value = localStorage.foregroundColor;
-    $hourColorPicker[0].value = localStorage.foregroundColor;
-    $minuteColorPicker[0].value = localStorage.foregroundColor;
-    $dotColorPicker[0].value = localStorage.foregroundColor;
-    $dateColorPicker[0].value = localStorage.foregroundColor;
+    $tickColorPicker[0].value = localStorage.tickColor;
+    $hourColorPicker[0].value = localStorage.hourColor;
+    $minuteColorPicker[0].value = localStorage.minuteColor;
+    $dotColorPicker[0].value = localStorage.dotColor;
+    $dateColorPicker[0].value = localStorage.dateColor;
     $bluetoothVibesCheckbox[0].checked = localStorage.bluetoothVibes === "true";
   }
 }
